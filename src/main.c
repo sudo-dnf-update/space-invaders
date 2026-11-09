@@ -1,7 +1,9 @@
-#include <SDL3/SDL.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 int main() {
-    SDL_INIT_VIDEO;
 
-    SDL_QUIT;
+    printf("test");
+
+    return 0;
 }
